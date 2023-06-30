@@ -1,0 +1,88 @@
+.menu_coffee {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+
+.drink_box {
+
+
+    width: 400px;
+   
+
+    background-color: rgba(41, 38, 38, 0);
+    text-align: center;
+
+}
+
+.drink_img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.drink_name {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    box-sizing: border-box;
+    font-size: 22px;
+    height: fit-content;
+
+
+}
+
+.infor_drinks {
+    border: solid rgb(162, 158, 158);
+
+}
+
+h1,
+h3,
+h4 {
+    font-size: 18px;
+   justify-content: center;
+   font-weight: 400;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.ten {
+    color: red;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+@media screen and (max-width:500px) {
+    body{
+        display:column ;
+        width:80%;
+    }
+}
+@media screen and (max-width:650px) {
+    .content{
+      font-size: 20px;
+    }
+}
+@media screen and (max-width:468px) {
+    .content{
+      font-size: 10px;
+    }
+}
+@media screen and (max-width:255px) {
+    .content{
+      font-size: 5px;
+    }
+}
+@media screen and (max-width:408px) {
+    .drink_img {
+        width: 100%;
+        height: 100px;
+    
+    }
+}
